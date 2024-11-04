@@ -56,7 +56,7 @@ router.get('/profile', ensureAuthenticated, (req, res) =>
     user: req.user
   })
 );
-router.get('/buy-software', ensureAuthenticated, (req, res) =>
+router.get('/buy-usdt', ensureAuthenticated, (req, res) =>
   res.render('buy', {
     user: req.user
   })
